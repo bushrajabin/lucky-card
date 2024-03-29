@@ -10,6 +10,9 @@
         padding: 0px;
         margin: 0px;
     }
+    .container-top-div{
+        justify-content: space-between;
+    }
 
     .balance-div {
         padding-left: 16px;
@@ -19,14 +22,15 @@
     .buttons-div {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: end;
         padding: 14px;
     }
 
     .recharge-btn,
     .withdraw {
         width: 120px;
-        font-size: 20px;
+        font-size: 18px;
+        margin-right: 0px;
     }
 
 
@@ -35,6 +39,7 @@
         font-family: monospace;
         letter-spacing: 1px;
         color: gray;
+        font-size: 16px;
     }
 
     .container-reward-div {
