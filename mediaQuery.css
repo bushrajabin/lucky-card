@@ -50,7 +50,7 @@
         padding: 13px;
         border: 1px solid crimson;
         font-size: 18px;
-        color: crimson;
+        color: #CB3B4C;
         border-radius: 70px;
         margin: 7px;
         width: 170px;
@@ -68,11 +68,13 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: centesr;
+
         border-radius: 20px;
         background-repeat: no-repeat;
         margin-left: 0px;
-        width: 100%;
+        width: 98%;
+        margin: 2px;
     }
 
     .lucky-image-div>img {
@@ -105,7 +107,9 @@
         margin-top: 15px;
         padding: 4px;
     }
-
+.footer>i{
+    font-size:22px;
+}
     /* For wallet div */
     .wallet-div {
         width: 100%;
@@ -118,7 +122,6 @@
         display: flex;
         flex-direction: row;
     }
-
 
     .wallet-top-part>a>i {
         font-size: 20px;
