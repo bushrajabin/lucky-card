@@ -39,7 +39,7 @@
     .balance {
         font-family: monospace;
         letter-spacing: 1px;
-        color: gray;
+        color: #4E4E4E;
         font-size: 16px;
     }
 
@@ -54,11 +54,15 @@
         font-size: 18px;
         color: crimson;
         border-radius: 70px;
-        margin: 10px;
+        margin: 7px;
         width: 170px;
         background-color: transparent;
         text-align: left;
         padding-left: 18px;
+    }
+
+    .container-reward-div>button>span {
+        padding-left: 5px;
     }
 
     .lucky-image-div {
@@ -70,19 +74,24 @@
         border-radius: 20px;
         background-repeat: no-repeat;
         margin-left: 0px;
+        width: 100%;
+    }
+
+    .lucky-image-div>img {
+        width: 80%;
+        margin-left: 10px;
     }
 
 
     .play-btn {
         width: 150px;
-        padding: 5px;
+        padding: 10px;
         border: none;
         border-radius: 200px;
-        color: red;
+        color: #EC1C24;
         font-size: 20px;
         margin-bottom: 15px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .images {

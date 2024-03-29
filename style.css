@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     margin-left: 37%;
     margin-right: 37%;
-   }
+}
 
 .container-top-div {
     background-color: white;
@@ -29,6 +29,7 @@ body {
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;
+    color: rgb(71, 69, 69);
 }
 
 .rupaye {
@@ -42,6 +43,7 @@ body {
 .id {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px;
+    color: rgb(71, 69, 69);
 
 }
 
@@ -53,7 +55,7 @@ body {
 }
 
 .recharge-btn {
-    background-color: crimson;
+    background-color: #CB3B4C;
     padding: 15px;
     border: none;
     border-radius: 30px;
@@ -80,31 +82,35 @@ body {
 
 .container-reward-div>button {
     padding: 14px;
-    border: 1px solid crimson;
+    border: 1px solid #CB3B4C;
     font-size: 20px;
-    color: crimson;
+    color: #CB3B4C;
     border-radius: 70px;
     margin: 10px;
     width: 200px;
     background-color: transparent;
     text-align: left;
-    padding-left: 28px;
+    padding-left: 25px;
+}
+
+.container-reward-div>button>span {
+    padding-left: 5px;
 }
 
 .lucky-image-div {
     background-image: url(./images/Rectangle\ 56.png);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     border-radius: 20px;
     background-repeat: no-repeat;
-    width: 100%;
     margin-left: 10px;
 }
 
 .lucky-image-div>img {
     width: 80%;
+    padding-left: 2px;
+    padding-right: 10px;
 }
 
 .play-btn {
@@ -216,7 +222,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 20px;
- }
+}
 
 .input-buttons>button {
     padding: 10px;
