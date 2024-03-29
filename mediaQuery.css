@@ -189,7 +189,7 @@
         border-radius: 20px;
         width: 80%;
         margin-left: 10px;
-        margin-top: 70%;
+        margin-top: 80%;
     }
     /* CSS FOR BALANCE */
     .balance-main-container {
@@ -271,6 +271,8 @@
         padding: 0px;
         margin: 0px;
         width: 100%;
+        padding-top: 0px;
+        margin-top: 0px;
     }
 
     .phn,
@@ -291,5 +293,9 @@
         font-family: "Montserrat", sans-serif;
     }
    
+    .footer{
+        margin-bottom: 10px;
+        margin: 10px;
+    }
 
 }
