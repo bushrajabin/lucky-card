@@ -282,11 +282,11 @@
     }
 
     .profile-buttons>button {
-        padding: 10px;
+        padding: 9px;
         border-radius: 30px;
         border: none;
         border: 2px solid #CB3B4C;
-        width: 162px;
+        width: 160px;
         font-size: 14px;
         color: #CB3B4C;
         background-color: transparent;
