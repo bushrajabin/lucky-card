@@ -21,7 +21,6 @@
         flex-direction: column;
         justify-content: center;
         padding: 14px;
-
     }
 
     .recharge-btn,
@@ -29,6 +28,7 @@
         width: 120px;
         font-size: 20px;
     }
+
 
     .id,
     .balance {
@@ -53,6 +53,30 @@
         background-color: transparent;
     }
 
+    .lucky-image-div {
+        background-image: url(./images/Rectangle\ 56.png);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        margin-left: 0px;
+    }
+
+
+    .play-btn {
+        width: 150px;
+        padding: 5px;
+        border: none;
+        border-radius: 200px;
+        color: red;
+        font-size: 20px;
+        margin-bottom: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
     .images {
         display: flex;
         flex-direction: row;
@@ -61,8 +85,10 @@
     }
 
     .images>img {
-        width: 130px;
-        padding: 10px;
+        width: 160px;
+        margin: 4px;
+        margin-top: 15px;
+        padding: 5px;
     }
 
     /* For wallet div */
