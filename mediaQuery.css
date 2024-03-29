@@ -52,7 +52,8 @@
     }
 
     .images>img {
-        width: 150px;
+        width: 130px;
+        padding: 10px;
     }
     /* For wallet div */
     .wallet-div{
