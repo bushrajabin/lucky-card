@@ -415,7 +415,6 @@ body {
 .profile-top-contaner {
     margin-left: 37%;
     margin-right: 37%;
-    /* background-color: white; */
     margin-top: 0px;
     padding: 0px;
     padding-bottom: 20px;
@@ -531,3 +530,87 @@ body {
     color: white;
 }
 
+
+
+/* FOR TASK REWARD */
+.task-reward-main-container{
+    margin-left: 39%;
+    margin-right: 39%;
+    padding-bottom: 20px;
+}
+.reward-top-part{
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.reward-top-part>a{
+    text-decoration: none;
+    color: black;
+}
+.reward-top-part>a>i{
+    font-size: 21px;
+}
+.reward-top-part>a>span{
+    font-size: 21px;
+    padding-left: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.reward-1,.reward-2{
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+}
+.reward-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 15px;    
+}
+.reward-top>h5{
+    padding: 0px;
+    margin: 0px;
+}
+.reward-1>p,.reward-2>p{
+text-align: center;
+padding-left: 14px;
+padding-right: 14px;
+font-family: "Montserrat", sans-serif;
+font-size: 15px;
+}
+.claim{
+    padding: 10px;
+    border: none;
+    width: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color:#CB3B4C;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin-left: 35%;
+}
+
+
+.task-footer {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 15px;
+    margin-top: 20%;
+}
+.task-footer>a>i{
+    font-size: 24px;
+    color: #4E4E4E;
+}
+.task-footer>a>i:hover {
+    color: #CB3B4C;
+}

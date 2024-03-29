@@ -268,9 +268,7 @@
     .balance-footer {
         width: 82%;
         margin-left: 3px;
-    
-
-    }
+        }
 
     /* Profile*/
     .profile-top-contaner {
@@ -305,5 +303,24 @@
         margin-bottom: 10px;
         margin: 10px;
     }
+
+
+    /* For task reward */
+   .task-reward-main-container{
+    margin-left: 0px;
+    margin-right: 0px;
+   }
+   .task-footer {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 15px;
+    margin-top: 45%;
+}
 
 }
