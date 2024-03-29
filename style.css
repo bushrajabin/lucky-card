@@ -104,7 +104,7 @@ body {
 }
 
 .images {
-display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -126,4 +126,89 @@ display: flex;
 .bottom-image>img {
     width: 90%;
     border-radius: 20px;
+}
+
+/* For wallet div */
+.wallet-div {
+    margin-left: 39%;
+    margin-right: 39%;
+}
+
+.wallet-top-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.wallet-top-part>h2 {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wallet-top-part>a {
+    color: crimson;
+    text-decoration: none;
+}
+
+.amount-part {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.amount-part>h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.amount-part>input {
+    width: 85%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.balance-part {
+    padding-left: 30px;
+}
+
+.input-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20px;
+
+}
+
+.input-buttons>button {
+    padding: 10px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+}
+
+.footer-part {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 90%;
+}
+
+.footer-part>i {
+    color: grey;
+    cursor: pointer;
+}
+
+.footer-part>a {
+    color: crimson;
 }

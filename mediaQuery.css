@@ -54,4 +54,12 @@
     .images>img {
         width: 150px;
     }
+    /* For wallet div */
+    .wallet-div{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .footer-part{
+        margin-top: 60%;
+    }
 }
