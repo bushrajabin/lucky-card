@@ -69,7 +69,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: centesr;
-
         border-radius: 20px;
         background-repeat: no-repeat;
         margin-left: 0px;
@@ -132,7 +131,13 @@
         width: 87%;
         margin-left: 0px;
     }
+   .footer-part>i{
+    font-size: 24px;
+   }
 
+   .footer-part>a>i{
+    font-size: 24px;
+   }
     .input-buttons>button {
         padding: 10px;
         width: 84px;
