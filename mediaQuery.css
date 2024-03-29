@@ -1,0 +1,57 @@
+@media (max-width:500px) {
+    .container-div {
+
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .container-div {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .balance-div {
+        padding-left: 16px;
+    }
+
+    .buttons-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .recharge-btn,
+    .withdraw {
+        width: 120px;
+    }
+
+    .container-reward-div {
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+    .container-reward-div>button {
+        padding: 13px;
+        border: 1px solid crimson;
+        font-size: 18px;
+        color: crimson;
+        border-radius: 70px;
+        margin: 10px;
+        width: 170px;
+        background-color: transparent;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .images>img {
+        width: 150px;
+    }
+}
