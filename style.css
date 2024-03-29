@@ -128,6 +128,27 @@ body {
     border-radius: 20px;
 }
 
+.footer {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top:10px;
+}
+
+.footer>i {
+    color: grey;
+    cursor: pointer;
+}
+
+.footer>a {
+    color: crimson;
+}
 /* For wallet div */
 .wallet-div {
     margin-left: 39%;
@@ -143,13 +164,13 @@ body {
     padding-left: 30px;
 }
 
-.wallet-top-part>h2 {
+.wallet-top-part>a {
     font-size: 17px;
+    color:black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .wallet-top-part>a {
-    color: crimson;
     text-decoration: none;
 }
 
