@@ -19,7 +19,7 @@ body {
 }
 
 .balance-div {
-    padding-left: 30px;
+    padding-left: 20px;
     padding-top: 15px;
 }
 
@@ -51,7 +51,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 .recharge-btn {
@@ -172,6 +172,10 @@ body {
     font-size: 22px;
 }
 
+.footer>a>i:hover {
+    color: #CB3B4C;
+}
+
 
 /* For wallet div */
 .wallet-div {
@@ -240,7 +244,7 @@ body {
     background-color: whitesmoke;
 }
 
-.footer-part {
+.footer-wallet{
     background-color: whitesmoke;
     display: flex;
     flex-direction: row;
@@ -248,19 +252,20 @@ body {
     padding: 20px;
     justify-content: space-between;
     border-radius: 20px;
-    width: 70%;
+    width: 90%;
     margin-left: 40px;
     margin-top: 90%;
 }
-
-.footer-part>i {
-    color: grey;
-    cursor: pointer;
+.footer-wallet>a>i{
+    font-size: 24px;
+    color: #4E4E4E;
 }
 
-.footer-part>a>i:hover {
-    /* color: crimson; */
+.footer-wallet>a>i:hover {
+    color: #CB3B4C;
 }
+
+
 
 /* CSS FOR BALANCE */
 .balance-main-container {
@@ -302,7 +307,6 @@ body {
 
 .rupaye {
     font-size: 45px;
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     color: #CB3B4C;
     font-family: "Montserrat", sans-serif;
     padding: 0px;
@@ -385,6 +389,26 @@ body {
     font-family: "Montserrat", sans-serif;
     color: #4E4E4E;
     padding-top: 30px;
+}
+
+.balance-footer {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 30%;
+}
+.balance-footer>a>i{
+    font-size: 24px;
+    color: #4E4E4E;
+}
+.balance-footer>a>i:hover {
+    color: #CB3B4C;
 }
 
 /* FOr profile-part */
@@ -507,3 +531,4 @@ body {
     width: 130px;
     color: white;
 }
+
