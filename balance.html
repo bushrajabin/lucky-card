@@ -4,21 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Balance</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  />
-  <link rel="stylesheet" href="./mediaQuery.css" />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./mediaQuery.css" />
+
+    <!-- Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="balance-main-container">
       <div class="balance-top-part">
         <div class="balance-part">
-          <h2>Balance</h2>
-          <h1>₹0.00</h1>
+          <h2 class="balance-text">Balance</h2>
+          <h2 class="rupaye">₹0.00</h2>
         </div>
-        <button class="recharge-btn">Recharge</button>
+        <button>Recharge</button>
       </div>
 
       <div class="balance-buttons">
@@ -28,19 +36,20 @@
       <div class="invitations">
         <div class="form-1">
           <p>Invite Today</p>
-          <h1>0</h1>
-          <h4>Today:0</h4>
+          <h2>0</h2>
+          <p>Today:0</p>
         </div>
         <div class="form-2">
           <p>Today's Income</p>
-          <h1>0</h1>
-          <h4>Today:0</h4>
-        </div>
-        <div class="details">
-            <h3>Income details</h3>
-            <i class="fa-solid fa-chevron-right"></i>
+          <h2>0</h2>
+          <p>Today:0</p>
         </div>
       </div>
+      <div class="details">
+        <h3>Income details</h3>
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+      <h3 class="records">No records</h3>
     </div>
   </body>
 </html>

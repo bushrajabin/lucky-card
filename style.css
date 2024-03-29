@@ -168,9 +168,10 @@ body {
 }
 
 .footer>a {
-    color: crimson;
-font-size: 22px;
+    color: gray;
+    font-size: 22px;
 }
+
 
 /* For wallet div */
 .wallet-div {
@@ -193,9 +194,10 @@ font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.wallet-top-part>p{
+.wallet-top-part>p {
     color: #CB3B4C;
 }
+
 .wallet-top-part>a {
     text-decoration: none;
 }
@@ -256,6 +258,252 @@ font-size: 22px;
     cursor: pointer;
 }
 
-.footer-part>a {
-    color: crimson;
+.footer-part>a>i:hover {
+    /* color: crimson; */
+}
+
+/* CSS FOR BALANCE */
+.balance-main-container {
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 40px;
+}
+
+.balance-top-part {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.balance-top-part>button {
+    height: 50px;
+    width: 120px;
+    border: none;
+    background-color: #CB3B4C;
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+}
+
+.balance-text {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(46, 45, 45);
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.rupaye {
+    font-size: 45px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    color: #CB3B4C;
+    font-family: "Montserrat", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.balance-buttons {
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+}
+
+.balance-buttons>button {
+    padding: 15px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    border: 2px solid #CB3B4C;
+    background-color: transparent;
+    letter-spacing: 1px;
+    color: #CB3B4C;
+}
+
+.invitations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.form-1,
+.form-2 {
+    background-color: white;
+    width: 47%;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0px;
+}
+
+.form-1>p,
+.form-2>p {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #CB3B4C;
+    padding: 10px;
+    margin: 3px;
+}
+
+.form-1>h2,
+.form-2>h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    color: #CB3B4C;
+    padding: 0px;
+    margin: 0px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.details>h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.records {
+    text-align: center;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: #4E4E4E;
+    padding-top: 30px;
+}
+
+/* FOr profile-part */
+.profile-top-contaner {
+    margin-left: 37%;
+    margin-right: 37%;
+    background-color: white;
+    margin-top: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+.profile-top-part {
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10px;
+}
+
+.person-details {
+    padding-left: 4px;
+    padding-top: 30px;
+}
+
+.name {
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile-image {
+    padding: 20px;
+}
+
+.phn,
+.userID {
+    padding: 4px;
+    margin: 0px;
+}
+
+.profile-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.profile-buttons>button {
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    border: 2px solid #CB3B4C;
+    width: 180px;
+    font-size: 16px;
+    color: #CB3B4C;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+}
+
+.order-1,
+.order-2,
+.order-3,
+.order-4,
+.order-5,
+.order-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    padding-left: 10px;
+    color: rgb(35, 30, 30);
+    padding: 7px;
+    padding-left: 30px;
+}
+
+.order-1>p>i,
+.order-2>p>i,
+.order-3>p>i,
+.order-4>p>i,
+.order-5>p>i,
+.order-6>p>i {
+    font-size: 18px;
+}
+
+.order-1>p>span,
+.order-2>p>span,
+.order-3>p>span,
+.order-4>p>span,
+.order-5>p>span,
+.order-6>p>span {
+    font-size: 19px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 6px;
+}
+
+.order-1>i,
+.order-2>i,
+.order-3>i,
+.order-4>i,
+.order-5>i,
+.order-6>i {
+    padding-right: 20px;
+}
+
+.signOut {
+    background-color: #4E4E4E;
+    border: none;
+    border-radius: 30px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 14px;
+    margin-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+    width: 130px;
+    color: white;
 }

@@ -33,6 +33,7 @@
         font-size: 15px;
         margin-right: 0px;
     }
+
     .id,
     .balance {
         font-family: monospace;
@@ -106,14 +107,15 @@
         margin-top: 15px;
         padding: 4px;
     }
-.footer>i{
-    font-size:22px;
-}
+
+    .footer>i {
+        font-size: 22px;
+    }
+
     /* For wallet div */
     .wallet-div {
         width: 100%;
         margin-left: 0px;
-
     }
 
     .wallet-top-part {
@@ -131,13 +133,22 @@
         width: 87%;
         margin-left: 0px;
     }
-   .footer-part>i{
-    font-size: 24px;
-   }
 
-   .footer-part>a>i{
-    font-size: 24px;
-   }
+    .footer-part>i {
+        font-size: 24px;
+        color: #4E4E4E;
+    }
+
+    .footer-part>a>i {
+        font-size: 24px;
+        color: #4E4E4E;
+    }
+
+    footer>a:hover {
+        color: #CB3B4C;
+    }
+
+
     .input-buttons>button {
         padding: 10px;
         width: 84px;
@@ -164,4 +175,105 @@
     .balance-part {
         padding-left: 19px;
     }
+
+    /* CSS FOR BALANCE */
+    .balance-main-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .balance-top-part {
+        width: 90%;
+        margin-left: 0px;
+        padding: 18px;
+    }
+
+    .balance-buttons {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .balance-buttons>button {
+        margin: 9px;
+        width: 200px;
+    }
+
+    .form-1,
+    .form-2 {
+        width: 230px;
+        gap: 0px;
+        padding: 4px;
+        margin: 7px;
+    }
+
+    .form-1>h2,
+    .form-2>h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 35px;
+        color: #CB3B4C;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .form-1>p,
+    .form-2>p {
+        font-size: 17px;
+        padding: 10px;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15px;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 1px;
+        padding-right: 10px;
+    }
+
+    .details>h3 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+
+    }
+
+    .records {
+        text-align: center;
+        font-size: 12px;
+        font-family: "Montserrat", sans-serif;
+        color: #4E4E4E;
+        padding-top: 30px;
+    }
+
+    /* Profile*/
+    .profile-top-contaner {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .phn,
+    .userID {
+        padding: 2px;
+        margin: 0px;
+    }
+
+    .profile-buttons>button {
+        padding: 10px;
+        border-radius: 30px;
+        border: none;
+        border: 2px solid #CB3B4C;
+        width: 165px;
+        font-size: 14px;
+        color: #CB3B4C;
+        background-color: transparent;
+        font-family: "Montserrat", sans-serif;
+    }
+
 }
