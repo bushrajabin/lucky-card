@@ -33,8 +33,6 @@
         font-size: 15px;
         margin-right: 0px;
     }
-
-
     .id,
     .balance {
         font-family: monospace;
@@ -127,7 +125,9 @@
     }
 
     .footer-part {
-        margin-top: 60%;
+        margin-top: 95%;
+        width: 87%;
+        margin-left: 0px;
     }
 
     .input-buttons>button {
