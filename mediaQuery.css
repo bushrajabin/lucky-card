@@ -41,6 +41,9 @@
         color: #4E4E4E;
         font-size: 16px;
     }
+    .rupaye{
+        font-size: 39px;
+    }
 
     .container-reward-div {
         justify-content: space-evenly;
@@ -176,6 +179,18 @@
         padding-left: 19px;
     }
 
+    .footer-wallet{
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        justify-content: space-between;
+        border-radius: 20px;
+        width: 80%;
+        margin-left: 10px;
+        margin-top: 90%;
+    }
     /* CSS FOR BALANCE */
     .balance-main-container {
         margin-left: 0px;
@@ -275,5 +290,6 @@
         background-color: transparent;
         font-family: "Montserrat", sans-serif;
     }
+   
 
 }

@@ -37,7 +37,7 @@ body {
     color: rgb(200, 71, 97);
     padding: 0px;
     margin: 0px;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .id {
@@ -51,7 +51,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .recharge-btn {
@@ -253,7 +253,7 @@ body {
     justify-content: space-between;
     border-radius: 20px;
     width: 90%;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 90%;
 }
 .footer-wallet>a>i{
