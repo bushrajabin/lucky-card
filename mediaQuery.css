@@ -1,6 +1,5 @@
 @media (max-width:500px) {
     .container-div {
-
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;
@@ -14,15 +13,15 @@
 
     .balance-div {
         padding-left: 16px;
-     padding-top: 30px;
+        padding-top: 30px;
     }
 
     .buttons-div {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 19px;
-        
+        padding: 14px;
+
     }
 
     .recharge-btn,
@@ -31,11 +30,13 @@
         font-size: 20px;
     }
 
-    .id,.balance{
-        font-family:monospace;
+    .id,
+    .balance {
+        font-family: monospace;
         letter-spacing: 1px;
         color: gray;
     }
+
     .container-reward-div {
         justify-content: space-evenly;
         display: flex;
@@ -63,12 +64,14 @@
         width: 130px;
         padding: 10px;
     }
+
     /* For wallet div */
-    .wallet-div{
+    .wallet-div {
         width: 100%;
         margin-left: 0px;
     }
-    .footer-part{
+
+    .footer-part {
         margin-top: 60%;
     }
 }
