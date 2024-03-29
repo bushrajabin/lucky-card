@@ -268,7 +268,7 @@
     .balance-footer {
         width: 82%;
         margin-left: 3px;
-        }
+    }
 
     /* Profile*/
     .profile-top-contaner {
@@ -306,21 +306,22 @@
 
 
     /* For task reward */
-   .task-reward-main-container{
-    margin-left: 0px;
-    margin-right: 0px;
-   }
-   .task-footer {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
-    justify-content: space-between;
-    border-radius: 20px;
-    width: 80%;
-    margin-left: 15px;
-    margin-top: 45%;
-}
+    .task-reward-main-container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .task-footer {
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        justify-content: space-between;
+        border-radius: 20px;
+        width: 80%;
+        margin-left: 15px;
+        margin-top: 45%;
+    }
 
 }
