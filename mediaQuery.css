@@ -439,8 +439,310 @@
         background-color: white;
         background-color: transparent;
     }
-    
+
+    /* FOR LUCKY-7 */
+    .lucky-7-main-container {
+        margin-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        background-image: url(./images/Rectangle\ 57.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 10px;
+    }
 
 
+    .ludo-image {
+        width: 100%;
+        height: 250px;
+    }
+
+    .ludo-image>img {
+        width: 100%;
+    }
+
+    .lucky-7-top-part {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .lucky-7-top-part>a {
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 23px;
+    }
+
+    .lucky-7-top-part>a>i {
+        font-size: 23px;
+    }
+
+    .lucky-7-top-part>a>span {
+        font-size: 23px;
+        padding-left: 20px;
+    }
+
+    .lucky-7-middle-part {
+
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+
+    .middle-left-part,
+    .middle-right-part {
+        padding-left: 20px;
+        font-family: "Montserrat", sans-serif;
+        padding-right: 20px;
+        color: white;
+    }
+
+    .middle-left-part>p,
+    .middle-right-part>p {
+        font-size: 15px;
+        padding-top: 10px;
+        margin: 0px;
+        letter-spacing: 1px;
+    }
+
+    .num {
+        padding: 0px;
+        margin: 0px;
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 2px;
+    }
+
+    .num-2 {
+        padding: 0px;
+        margin: 0px;
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 2px;
+        padding-left: 30px;
+    }
+
+    .rupay-div {
+        display: flex;
+        flex-direction: row;
+        padding-top: 0px;
+        padding-top: 20px;
+    }
+
+    .r-bottom-part {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .r-bottom-part>img {
+        width: 50%;
+        height: 80%;
+        object-fit: contain;
+    }
+
+    .rupaye-1 {
+        background-color: white;
+        text-align: center;
+        margin: 3px;
+        width: 100px;
+        border-radius: 15px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+    .rupaye-2 {
+        background-color: #3AB443;
+        margin: 3px;
+        width: 100px;
+        border-radius: 15px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .rupaye-3 {
+        background-color: white;
+        text-align: center;
+        margin: 3px;
+        width: 100px;
+        border-radius: 15px;
+        margin-right: 10px;
+        padding: 10px;
+    }
+
+    .r-top-part>p {
+        font-size: 20px;
+        padding: 0px;
+        margin: 10px;
+        font-family: "Montserrat", sans-serif;
+
+    }
+
+    .r-bottom-part {
+        display: flex;
+        background-color: gainsboro;
+        height: 30px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .r-bottom-part>p {
+        font-size: 19px;
+    }
+
+    .gameover {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 17px;
+    }
+
+    .minus,
+    .plus {
+        background-color: #FFA900;
+        margin: 10px;
+        border-radius: 6px;
+    }
+
+    .minus>i,
+    .plus>i {
+        font-size: 26px;
+        padding: 5px;
+        color: white;
+
+    }
+
+    .value {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #F2EEEE;
+        width: 120px;
+        height: 40px;
+        justify-content: space-evenly;
+        border-radius: 10px;
+
+    }
+
+    .value>img {
+        width: 26%;
+        height: 80%;
+        object-fit: contain;
+    }
+
+    .value>p {
+        font-size: 20px;
+
+    }
+
+    .record {
+        background-color: white;
+        margin: 16px;
+        border-radius: 10px;
+    }
+
+    .record>h2 {
+        text-align: center;
+        padding-top: 10px;
+        font-family: "Montserrat", sans-serif;
+        color: #CB3B4C;
+        letter-spacing: 1px;
+    }
+
+    .record-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 18px;
+    }
+
+    .record-top>p {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .recordBottom {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .e-1,
+    .e-2,
+    .e-3,
+    .e-4,
+    .e-5,
+    .e-6,
+    .e-7,
+    .e-8,
+    .e-9,
+    .e-10,
+    .e-11,
+    .e-12,
+    .e-13,
+    .e-14,
+    .e-15,
+    .e-16,
+    .e-17,
+    .e-18,
+    .e-19,
+    .e-20,
+    .e-21,
+    .e-22,
+    .e-23,
+    .e-24,
+    .e-25,
+    .e-26,
+    .e-27 {
+
+        width: 24px;
+        height: 24px;
+        background-color: red;
+        margin: 5px;
+        border-radius: 100px;
+        text-align: center;
+    }
+
+
+    .ellipse-1>p,
+    .ellipse-2>p,
+    .ellipse-3>p,
+    .ellipse-4>p,
+    .ellipse-5>p,
+    .ellipse-6>p,
+    .ellipse-7>p,
+    .ellipse-8>p,
+    .ellipse-9>p,
+    .ellipse-10>p,
+    .ellipse-11>p,
+    .ellipse-12>p,
+    .ellipse-13>p,
+    .ellipse-14>p,
+    .ellipse-15>p,
+    .ellipse-16>p,
+    .ellipse-17>p,
+    .ellipse-18>p,
+    .ellipse-19>p,
+    .ellipse-20>p,
+    .ellipse-21>p,
+    .ellipse-22>p,
+    .ellipse-23>p,
+    .ellipse-24>p,
+    .ellipse-25>p,
+    .ellipse-26>p,
+    .ellipse-27>p {
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+
+    }
 
 }

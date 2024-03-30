@@ -641,7 +641,6 @@ body {
 .check-in-main-div {
     margin-left: 37%;
     margin-right: 37%;
-    /* background-color: red; */
 }
 
 .check-in-top-part {
@@ -722,4 +721,10 @@ body {
 .day-8>img {
     width: 70%;
 
+}
+
+/* LUCKY 7  */
+.lucky-7-main-container{
+    margin-left: 37%;
+    margin-right: 37%;
 }
