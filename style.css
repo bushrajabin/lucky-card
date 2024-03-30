@@ -32,6 +32,11 @@ body {
     color: rgb(71, 69, 69);
 }
 
+.task-reward>a,.check>a{
+    text-decoration: none;
+    color: rgb(200, 71, 97);
+}
+
 .rupaye {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(200, 71, 97);
