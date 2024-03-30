@@ -988,10 +988,10 @@
         background-color: #CB3B4C;
         border-radius: 40px;
         border: none;
-        padding: 14px;
-        font-size: 17px;
+        padding: 12px;
+        font-size: 15px;
         color: white;
-        width: 160px;
+        width: 150px;
         font-family: "Montserrat", sans-serif;
     }
 
@@ -999,10 +999,10 @@
         background-color: #E0E0E0;
         border-radius: 40px;
         border: none;
-        padding: 14px;
-        font-size: 17px;
+        padding: 12px;
+        font-size: 15px;
         color: white;
-        width: 160px;
+        width: 150px;
         font-family: "Montserrat", sans-serif;
     }
 
@@ -1015,14 +1015,18 @@
     }
 
     .preiod-1>p,
-    .select>p,.user,.point {
+    .select>p,
+    .user,
+    .point {
         font-family: "Montserrat", sans-serif;
         color: #4E4E4E;
         padding-top: 8px;
     }
-    .select-period{
+
+    .select-period {
         padding-top: 0px;
     }
+
     .period-heading,
     .select-div,
     .user,
@@ -1035,7 +1039,6 @@
     .user {
         display: flex;
         flex-direction: column;
-        /* padding-left: 4px; */
     }
 
     .red-1,
@@ -1053,13 +1056,16 @@
         font-size: 14px;
         color: white;
     }
-    .red-1{
+
+    .red-1 {
         background-color: #CB3B4C;
     }
-    .green-1{
+
+    .green-1 {
         background-color: #3AB443;
     }
-    .violet-1{
+
+    .violet-1 {
         background-color: #5E3EC4;
     }
 }
