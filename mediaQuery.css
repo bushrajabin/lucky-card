@@ -26,7 +26,8 @@
         justify-content: end;
         padding: 14px;
     }
-    .buttons-div>a{
+
+    .buttons-div>a {
         text-decoration: none;
     }
 
@@ -663,12 +664,14 @@
         justify-content: space-between;
         padding-left: 15px;
         padding-right: 15px;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .record-top>p {
         margin-top: 0px;
         padding-top: 0px;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 1px;
     }
 
     .recordBottom {
@@ -746,6 +749,41 @@
         margin: 0px;
         text-align: center;
 
+    }
+
+    .e-1,
+    .e-3,
+    .e-5,
+    .e-6,
+    .e-7,
+    .e-8,
+    .e-10,
+    .e-12,
+    .e-13,
+    .e-14,
+    .e-17,
+    .e-18,
+    .e-19,
+    .e-21,
+    .e-22,
+    .e-24,
+    .e-25,
+    .e-27 {
+        background-color: #3AB443;
+        color: #3AB443;
+    }
+    .e-2,
+    .e-4,
+    .e-9,
+    .e-16,
+    .e-23,
+    .e-26 {
+        background-color: #CB3B4C;
+        color: #CB3B4C;
+    }
+    .e-11,.e-15,.e-20{
+        background-color: #5E3EC4;
+        color: #5E3EC4;
     }
 
 }
