@@ -118,9 +118,9 @@
     }
 
     .footer {
-        width: 85%;
+        width: 83%;
         /* margin-left: 10px; */
-        background-color: red;
+        /* background-color: red; */
         display: flex;
         flex-direction: row;
 
