@@ -32,7 +32,8 @@ body {
     color: rgb(71, 69, 69);
 }
 
-.task-reward>a,.check>a{
+.task-reward>a,
+.check>a {
     text-decoration: none;
     color: rgb(200, 71, 97);
 }
@@ -249,7 +250,7 @@ body {
     background-color: whitesmoke;
 }
 
-.footer-wallet{
+.footer-wallet {
     background-color: whitesmoke;
     display: flex;
     flex-direction: row;
@@ -261,7 +262,8 @@ body {
     margin-left: 20px;
     margin-top: 90%;
 }
-.footer-wallet>a>i{
+
+.footer-wallet>a>i {
     font-size: 24px;
     color: #4E4E4E;
 }
@@ -408,10 +410,12 @@ body {
     margin-left: 40px;
     margin-top: 30%;
 }
-.balance-footer>a>i{
+
+.balance-footer>a>i {
     font-size: 24px;
     color: #4E4E4E;
 }
+
 .balance-footer>a>i:hover {
     color: #CB3B4C;
 }
@@ -538,62 +542,72 @@ body {
 
 
 /* FOR TASK REWARD */
-.task-reward-main-container{
+.task-reward-main-container {
     margin-left: 39%;
     margin-right: 39%;
     padding-bottom: 20px;
 }
-.reward-top-part{
+
+.reward-top-part {
     display: flex;
     text-align: center;
     padding-top: 30px;
     padding-left: 20px;
 }
-.reward-top-part>a{
+
+.reward-top-part>a {
     text-decoration: none;
     color: black;
 }
-.reward-top-part>a>i{
+
+.reward-top-part>a>i {
     font-size: 21px;
 }
-.reward-top-part>a>span{
+
+.reward-top-part>a>span {
     font-size: 21px;
     padding-left: 10px;
     font-family: "Montserrat", sans-serif;
 }
 
-.reward-1,.reward-2{
+.reward-1,
+.reward-2 {
     background-color: white;
     margin: 15px;
     border-radius: 10px;
 }
-.reward-top{
+
+.reward-top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-family: "Montserrat", sans-serif;
     padding-left: 14px;
     padding-right: 14px;
-    padding-top: 15px;    
+    padding-top: 15px;
 }
-.reward-top>h5{
+
+.reward-top>h5 {
     padding: 0px;
     margin: 0px;
 }
-.reward-1>p,.reward-2>p{
-text-align: center;
-padding-left: 14px;
-padding-right: 14px;
-font-family: "Montserrat", sans-serif;
-font-size: 15px;
+
+.reward-1>p,
+.reward-2>p {
+    text-align: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
 }
-.claim{
+
+.claim {
     padding: 10px;
     border: none;
     width: 100px;
     margin: 10px;
     border-radius: 20px;
-    background-color:#CB3B4C;
+    background-color: #CB3B4C;
     font-family: "Montserrat", sans-serif;
     color: white;
     margin-left: 35%;
@@ -612,10 +626,100 @@ font-size: 15px;
     margin-left: 15px;
     margin-top: 20%;
 }
-.task-footer>a>i{
+
+.task-footer>a>i {
     font-size: 24px;
     color: #4E4E4E;
 }
+
 .task-footer>a>i:hover {
     color: #CB3B4C;
+}
+
+
+/* CSS FOR CHECK-IN */
+.check-in-main-div {
+    margin-left: 37%;
+    margin-right: 37%;
+    /* background-color: red; */
+}
+
+.check-in-top-part {
+    padding: 10px;
+}
+
+.check-in-div {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.day-1,
+.day-2,
+.day-3,
+.day-4,
+.day-5,
+.day-6,
+.day-7,
+.day-8 {
+    margin: 7px;
+    text-align: center;
+    padding: 3px;
+    width: 68px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.day-1>i,
+.day-2>i,
+.day-3>i,
+.day-4>i,
+.day-5>i,
+.day-6>i,
+.day-7>i {
+    font-size: 18px;
+
+}
+
+.day-1>i {
+    color: #E0E0E0;
+}
+
+.day-2>i,
+.day-3>i,
+.day-4>i,
+.day-5>i,
+.day-6>i,
+.day-7>i {
+    color: #FFA900;
+}
+
+.day {
+    padding: 5px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.point {
+    padding: 0px;
+    margin: 0px;
+}
+
+.day-8 {
+    width: 70px;
+    height: 70px;
+
+}
+
+.day-8>img {
+    width: 70%;
+
 }

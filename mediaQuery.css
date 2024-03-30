@@ -119,8 +119,6 @@
 
     .footer {
         width: 83%;
-        /* margin-left: 10px; */
-        /* background-color: red; */
         display: flex;
         flex-direction: row;
 
@@ -339,9 +337,110 @@
     }
 
     /* check in */
-    .check-in-main-div>a>img {
-        width: 100%;
-        margin: 2px;
+    .check-in-main-div {
+        margin-left: 0%;
+        margin-right: 0%;
+        background-image: url(./images/Rectangle\ 57.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
+
+    .check-in-top-part {
+        padding-top: 40px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    }
+
+    .check-in-top-part>a>i {
+        font-size: 24px;
+    }
+
+    .check-in-top-part>a>span {
+        padding-left: 17px;
+        font-size: 24px;
+    }
+
+
+    .check-in-top-part>a {
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+
+    }
+
+    .check-in-div {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 12px;
+        padding: 5px;
+        height: 240px;
+    }
+
+    .day-1,
+    .day-2,
+    .day-3,
+    .day-4,
+    .day-5,
+    .day-6,
+    .day-7,
+    .day-8 {
+        margin: 2px;
+        text-align: center;
+        width: 62px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .day {
+        padding: 2px;
+        margin: 0px;
+        font-size: 18px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .check-in-button {
+        background-color: #FFA900;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 17px;
+        width: 120px;
+        border-radius: 100px;
+        text-align: center;
+        padding: 13px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+
+    }
+
+    .para {
+        text-align: center;
+        font-size: 14px;
+        padding: 20px;
+        padding-top: 5px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .gift-image {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        background-color: white;
+        background-color: transparent;
+    }
+    
+
+
 
 }
