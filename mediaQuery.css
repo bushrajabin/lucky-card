@@ -121,7 +121,7 @@
         padding: 4px;
     }
 
-  
+
     .footer {
         width: 83%;
         display: flex;
@@ -284,7 +284,7 @@
 
     .balance-footer {
         width: 85%;
-        
+
         margin-left: 3px;
     }
 
@@ -620,7 +620,6 @@
         font-size: 26px;
         padding: 5px;
         color: white;
-
     }
 
     .value {
@@ -865,36 +864,202 @@
         padding: 10px;
         justify-content: space-between;
     }
-    .green,.violet,.red{
-        background-color: #3AB443;
-text-align: center;        display: flex;
+
+    .green,
+    .violet,
+    .red {
+
+        text-align: center;
+        display: flex;
         flex-direction: column;
+    }
+
+    .green>p,
+    .violet>p,
+    .red>p {
+        margin: 0px;
+        padding: 0px;
     }
 
     .green>button {
         border: none;
-        padding: 10px;
+        padding: 13px;
         font-size: 15px;
         width: 100px;
-        background-color:#3AB443;
+        background-color: #3AB443;
         border-radius: 50px;
         color: white;
+        font-family: "Montserrat", sans-serif;
     }
 
-    .violet>button{
+    .violet>button {
         background-color: #5E3EC4;
         border: none;
-        padding: 10px;
+        padding: 13px;
         font-size: 15px;
         width: 100px;
-        border-radius: 50px;  
+        border-radius: 50px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
     }
-    .red>button{
+
+    .red>button {
         background-color: red;
         border: none;
-        padding: 10px;
+        padding: 13px;
         font-size: 15px;
-        width: 100px; 
+        width: 100px;
         border-radius: 50px;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .color-Numbers {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .n-1,
+    .n-2,
+    .n-3,
+    .n-4,
+    .n-5,
+    .n-6,
+    .n-7,
+    .n-8,
+    .n-9,
+    .n-0 {
+        margin: 5px;
+        padding: 2px;
+        width: 15%;
+        height: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .n-1,
+    .n-3,
+    .n-7,
+    .n-9,
+    .n-0 {
+        background-color: #3AB443;
+    }
+
+    .n-2,
+    .n-4,
+    .n-6,
+    .n-8 {
+        background-color: #CB3B4C;
+    }
+
+    .color-record {
+        background-color: #E0E0E0;
+        margin: 16px;
+        border-radius: 10px;
+    }
+
+    .color-record>h2 {
+        text-align: center;
+        padding-top: 10px;
+        font-family: "Montserrat", sans-serif;
+        color: #CB3B4C;
+        letter-spacing: 1px;
+    }
+
+    .color-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 13px;
+    }
+
+    .Everyone {
+        background-color: #CB3B4C;
+        border-radius: 40px;
+        border: none;
+        padding: 14px;
+        font-size: 17px;
+        color: white;
+        width: 160px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .my-order {
+        background-color: #E0E0E0;
+        border-radius: 40px;
+        border: none;
+        padding: 14px;
+        font-size: 17px;
+        color: white;
+        width: 160px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .color-period {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .preiod-1>p,
+    .select>p,.user,.point {
+        font-family: "Montserrat", sans-serif;
+        color: #4E4E4E;
+        padding-top: 8px;
+    }
+    .select-period{
+        padding-top: 0px;
+    }
+
+    .period-heading,
+    .select-div,
+    .user,
+    .point,
+    .select-period {
+        font-size: 19px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .user {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .red-1,
+    .green-1,
+    .violet-1 {
+        border: none;
+        border-radius: 100px;
+        margin: 1px;
+        padding: 2px;
+        align-items: center;
+        height: 30px;
+        width: 30px;
+        margin-top: 9px;
+        margin-left: 4px;
+        font-size: 13px;
+        color: white;
+    }
+    .red-1{
+        background-color: #CB3B4C;
+    }
+    .green-1{
+        background-color: #3AB443;
+    }
+    .violet-1{
+        background-color: #5E3EC4;
     }
 }
