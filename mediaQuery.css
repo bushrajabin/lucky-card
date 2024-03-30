@@ -1024,6 +1024,12 @@
         padding-top: 0px;
     }
 
+    .select{
+        padding-left: 18px;
+    }
+    .point{
+        padding-left: 10px;
+    }
     .period-heading,
     .select-div,
     .user,
@@ -1036,6 +1042,7 @@
     .user {
         display: flex;
         flex-direction: column;
+        padding-left: 4px;
     }
 
     .red-1,
