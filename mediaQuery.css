@@ -26,6 +26,9 @@
         justify-content: end;
         padding: 14px;
     }
+    .buttons-div>a{
+        text-decoration: none;
+    }
 
     .recharge-btn,
     .withdraw {
