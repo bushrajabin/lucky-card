@@ -128,11 +128,6 @@
         flex-direction: row;
 
     }
-
-    .footer>i {
-        /* font-size: 21px; */
-    }
-
     /* For wallet div */
     .wallet-div {
         width: 100%;
